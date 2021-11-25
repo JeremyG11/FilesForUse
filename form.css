@@ -1,0 +1,183 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: Verdana, Tahoma, sans-serif;
+     box-sizing: border-box;
+}
+.content{
+     position: relative;
+     height: 100vh;
+     background-image: url("images/jeremy.jpg");
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     
+}
+.whole{
+     position: absolute;
+     top: 40px;
+     left: 350px;
+     background:transparent;
+     padding: 30px;
+     width: 590px;
+     height: 600px;
+     overflow: hidden;
+     transition: .5s;
+}
+.icon-togg{
+     width: 180px;
+     margin: 25px auto;
+     position: relative;
+     border: 0;
+     background: rgba(66, 23, 52, 0.562);
+     border-radius: 18px;
+     box-shadow: 0 0 20px 9px  rgb(73, 46, 63);
+}  
+.btn{
+    padding: 8px 22px;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    outline: none;
+    color: #ddd;
+    position: relative;
+
+}
+#switchBx{
+     top: 0;
+     left: -2px;
+     position: absolute;
+     border: 0;
+     width: 90px;
+     height: 100%;
+     background: rgb(240, 69, 69);
+     border-radius: 30px;
+     transition: .5s;
+}
+
+.registerBox{
+     position: absolute;
+     top: 100px;
+     left: -854px;
+     margin:10px 80px;
+     color: #fff;
+     transition: 0.5s;
+}
+
+.loginBox{
+     position: absolute;
+     top: 100px;
+     left: 0;
+     margin:10px 80px;
+     color: #000;
+     transition: .5s;
+}
+
+.email-Bx, .passBox{
+     width: 100%;
+     padding: 0 20px;
+     margin: 10px 0;
+     background: transparent;
+     outline: none;
+     border: 1px solid #f8f4f4;
+     border-radius: 30px;
+     display: flex;
+     align-items: center;
+
+}
+
+ .email-Bx input, .passBox input{
+     background: transparent;
+     border: none;
+     width: 100%;
+     overflow: hidden;
+     outline: none;
+     font-size: 16px;
+     color: #ddd;
+     text-align: center;
+     padding: 8px;
+}
+
+.loginBox button{
+     margin: 20px 120px;
+     padding: 10px 40px;
+     width: 50%;
+     background: rgb(240, 69, 69);
+     border: none;
+     font-size: 14px;
+     border-radius: 35px;
+     color: #fff;
+     cursor: pointer;
+     
+}
+.registerBox button{
+     margin: 20px 120px;
+     padding: 10px 40px;
+     width: 50%;
+     background: rgb(240, 69, 69);
+     border: none;
+     font-size: 14px;
+     border-radius: 35px;
+     color: #fff;
+     cursor: pointer;
+     
+}
+ label{
+     color: #000;
+     font-size: 18px;
+     
+}
+.helps-link ,hr{
+     margin-top: 20px;
+}
+.social-link{
+     margin-top: 20px;
+
+}
+.social-link p{
+     text-align: center;
+}
+.social-link ul {
+     margin-top: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+.social-link ul a{
+     margin: 0 10px auto;
+     background: #fff;
+     padding: 5px;
+     display: flex;
+     align-items: center;
+     border-radius: 50%;
+}
+.sign-btn{
+     margin: 20px 60px;
+     justify-content: center;
+}
+.sign-btn a{
+     margin: 15px 60px;
+     display: block;
+     background: rgb(219, 60, 60);
+     text-decoration: none;
+     padding: 10px 30px;
+     font-size: 14px;
+     border-radius: 35px;
+     color: #fff;
+     text-align: center;
+}
+hr{
+     margin: 0 30px;
+      
+}
+.checkBx{
+ margin: 20px;
+}
+
+
+
+
+
+
+

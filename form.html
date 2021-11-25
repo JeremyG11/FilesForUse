@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Login and registeration form</title>
+     <link rel="stylesheet" href="form.css">
+</head>
+<body>
+     <div class="content">
+         
+         <div class="whole"> 
+               <div class="icon-togg">
+                         <div id="switchBx"></div>
+                         <button onclick="login()" class="btn">Login</button>
+                         <button onclick="register()" class="btn">Register</button>
+                    </div>
+
+               <div class="loginForm">   
+                   
+                     <form  class="loginBox">
+                         <label for="Email">Email</label>
+                         <div class="email-Bx">
+                              <img src="images/email.png" width="20px" >
+                              <input type="email" placeholder="username or email" required >
+                         </div>
+                         <label for="Password">Password</label>
+                         <div class="passBox">
+                              <input type="password" placeholder="password" required>
+                              <img src="images/see.png" width="20px" >
+                         </div>
+                         <small>forgot password? <a href="#">helps</a></small>
+                         <button type="submit"> Login</button>
+                         <div class="social-link">
+                              <p>login with</p>
+                              <ul>
+                                   <a href="#"><img src="images/fb.png" width="20px" ></a>
+                                   <a href="#"><img src="images/twitter.png" width="20px" ></a>
+                                   <a href="#"><img src="images/instagram.png" width="20px"></a>
+                              </ul>
+                         </div>
+                    
+                    </form>
+                    <form  class="registerBox">
+                              <label for="Email">Full name</label>
+                              <div class="email-Bx">
+                                   <input type="text" placeholder="Your name" required >
+                              </div>
+                              <label for="Email">Email</label>
+                              <div class="email-Bx">
+                                   <img src="images/email.png" width="20px" >
+                                   <input type="email" placeholder="username or email" required >
+                              </div>
+                              <label for="Password">Password</label>
+                              <div class="passBox">
+                                   <input type="password" placeholder="password" required>
+                                   <img src="images/see.png" width="20px" >
+                              </div>
+                              <input type="checkbox" class="checkBx"><span>I agree to terms and conditions</span>
+                              <button type="submit"> Sign Up</button>
+                         
+                              <div class="social-link">
+                                   <p>login with</p>
+                                   <ul>
+                                        <a href="#"><img src="images/fb.png" width="20px" ></a>
+                                        <a href="#"><img src="images/twitter.png" width="20px" ></a>
+                                        <a href="#"><img src="images/instagram.png" width="20px"></a>
+                                   </ul>
+                              </div>
+                              
+                    </form>
+                    
+               </div>
+          
+         </div>
+     </div>
+     <script>
+             const a = document.querySelector('.loginBox');
+             const b = document.querySelector('.registerBox');
+             const c = document.querySelector('#switchBx');
+
+            function register(){
+                 a.style.left = "-760px";
+                 b.style.left = "0";
+                 c.style.left = "91px";
+             }
+             function login(){
+                 a.style.left ="0";
+                 b.style.left = "520px";
+                 c.style.left = "-2px";
+             }
+             
+     </script>
+</body>
+</html>
